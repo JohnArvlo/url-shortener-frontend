@@ -98,6 +98,12 @@ function UrlShortener() {
           placeholder="https://your-url.com"
           value={inputUrl}
           onChange={(e) => setInputUrl(e.target.value)}
+          onFocus={(e) => {
+            e.target.scrollIntoView({
+              behavior: "smooth",
+              block: "center",
+            });
+          }}
           style={{
               width: "300px",
               padding: "0.5rem 0.8rem",
