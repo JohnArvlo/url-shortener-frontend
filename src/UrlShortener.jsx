@@ -57,7 +57,7 @@ function UrlShortener() {
         textAlign: "center",
         bgcolor: "background.default",
         color: "text.primary",
-        minHeight: "100vh",
+        minHeight: "100dvh",
         justifyContent: "center",
         alignContent: "center",
       }}
