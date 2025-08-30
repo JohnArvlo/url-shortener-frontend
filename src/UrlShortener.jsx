@@ -46,6 +46,7 @@ function UrlShortener() {
       body: JSON.stringify({ url: inputUrl }),
     });
 
+    
     const data = await response.json();
     setShortUrl(data.shortUrl);
   };
