@@ -40,7 +40,7 @@ function UrlShortener() {
       return;
     }
 
-    const response = await fetch("https://urlshortener-bubkgqc0e4hrdte9.brazilsouth-01.azurewebsites.net/api-docs/create", {
+    const response = await fetch("https://urlshortener-bubkgqc0e4hrdte9.brazilsouth-01.azurewebsites.net/create", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ url: inputUrl }),
